@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[lfs]
+	repositoryformatversion = 0
+[remote "origin"]
+	url = https://github.com/QuispeJulio/santaPizza.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "desarrollo"]
+	remote = origin
+	merge = refs/heads/desarrollo
+	vscode-merge-base = origin/main
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
